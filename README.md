@@ -8,7 +8,8 @@ Kentico Documentation Guide (https://docs.kentico.com/display/K8/Kentico+8+Docum
 
 Common Webparts
 --------- 
-- __statichtml__ (Insert HTML Markup within a webpar)
+- __statichtml__ (Insert HTML Markup within this webpart)
+- __pageplaceholder__ (For masterpage - Child's page content go within this webpart)
 
 
 
