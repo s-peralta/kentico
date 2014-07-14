@@ -12,10 +12,9 @@ Common Webparts
 
 
 
-Enter Code Snippet Here
+Create a zone
 --------
 
 ```
-Code // Code // Code
-
+<cms:CMSWebPartZone ZoneID="zoneTitle" runat="server" />
 ```
