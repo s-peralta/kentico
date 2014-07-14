@@ -8,7 +8,7 @@ Kentico Documentation Guide (https://docs.kentico.com/display/K8/Kentico+8+Docum
 
 Common Webparts
 --------- 
-- statichtml (Insert HTML Markup within a webpar)
+- __statichtml__ (Insert HTML Markup within a webpar)
 
 
 
