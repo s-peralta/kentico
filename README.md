@@ -1,4 +1,4 @@
-Beginners Guide to Kentcio
+Beginners Guide to Kentico
 =============================
 
 This Guide will primarily be based off of Kentico 8
