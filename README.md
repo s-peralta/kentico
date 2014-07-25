@@ -6,6 +6,11 @@ This Guide will primarily be based off of Kentico 8
 <br>
 Kentico Documentation Guide (https://docs.kentico.com/display/K8/Kentico+8+Documentation+Home)
 
+Clear Cache or Restart Application
+--------- 
+<p>Systems > Clear Cache</p>
+<p>Systems > Restart Application</p>
+
 Common Webparts
 --------- 
 - __statichtml__ (Insert HTML Markup within this webpart)
