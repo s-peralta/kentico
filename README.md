@@ -24,3 +24,13 @@ Create a zone
 ```
 <cms:CMSWebPartZone ZoneID="zoneTitle" runat="server" />
 ```
+
+
+Add Language Culture String
+--------
+
+- To create a culture string go to - Localization > Click "New String"
+- Name your key "Project.Culture.String"
+- Populate the countries with the correct content
+- Go back to your page and choose either StaticText or StaticHtml as a webpart
+- Within the webpart add {$KEYNAME$} Ex {$Project.Culture.String$}
