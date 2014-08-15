@@ -24,7 +24,12 @@ Create a zone
 ```
 <cms:CMSWebPartZone ZoneID="zoneTitle" runat="server" />
 ```
-
+Conditional Statment
+--------
+If culture aka lang = English do this : do this
+```
+<%# CultureHelper.GetPreferredCulture() == "en-CA" ? FormatDateTime(Eval("EndDate"), "MMM dd, yyyy") : FormatDateTime(Eval("EndDate"), "dd MMM, yyyy") %>
+```
 
 Add Language Culture String
 --------
