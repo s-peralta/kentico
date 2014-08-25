@@ -29,6 +29,17 @@ Conditional Statment
 If culture aka lang = English do this : do this
 ```
 <%# CultureHelper.GetPreferredCulture() == "en-CA" ? FormatDateTime(Eval("EndDate"), "MMM dd, yyyy") : FormatDateTime(Eval("EndDate"), "dd MMM, yyyy") %>
+
+```
+Transformations
+--------
+Images Paths with Alt
+```
+<img src="<%# GetAbsoluteUrl(Eval("MainImage").ToString()) %>" alt="<%# Eval("AlternativeText") %>
+```
+Text
+```
+ <h3><%# Eval("Title") %></h3>
 ```
 
 Add Language Culture String
@@ -39,3 +50,5 @@ Add Language Culture String
 - Populate the countries with the correct content
 - Go back to your page and choose either StaticText or StaticHtml as a webpart
 - Within the webpart add {$KEYNAME$} Ex {$Project.Culture.String$}
+- 
+
