@@ -46,7 +46,7 @@ Localizatioh within a tranformation
  <%# ResHelper.GetString("CWP.AgeGroup") %>
 ```
 
-Localizatioh - UI Culture
+Localization - UI Culture
 --------
 ```
 {$CODENAME$}
