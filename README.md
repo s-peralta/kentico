@@ -39,8 +39,19 @@ Images Paths with Alt
 ```
 Text
 ```
- <h3><%# Eval("Title") %></h3>
+<%# Eval("Title") %>
 ```
+Localizatioh within a tranformation
+```
+ <%# ResHelper.GetString("CWP.AgeGroup") %>
+```
+
+Localizatioh - UI Culture
+--------
+```
+{$CODENAME$}
+```
+
 
 Add Language Culture String
 --------
