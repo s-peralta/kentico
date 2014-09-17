@@ -37,6 +37,10 @@ Images Paths with Alt
 ```
 <img src="<%# GetAbsoluteUrl(Eval("MainImage").ToString()) %>" alt="<%# Eval("AlternativeText") %>
 ```
+Link from list to Detail
+```
+<a href="<%# GetDocumentUrl() %>">Listing Anchor</a>
+```
 Text
 ```
 <%# Eval("Title") %>
@@ -61,5 +65,5 @@ Add Language Culture String
 - Populate the countries with the correct content
 - Go back to your page and choose either StaticText or StaticHtml as a webpart
 - Within the webpart add {$KEYNAME$} Ex {$Project.Culture.String$}
-- 
+-
 
