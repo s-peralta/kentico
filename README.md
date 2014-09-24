@@ -68,7 +68,7 @@ Hierarchical Accordion
      |- Answer Page w/ fields <br>
      |- Answer Page w/ fields <br>
 
-2.	Adding Transformations
+2.	Adding Transformations (Use the "Hierarchical Viewer" webpart!)
 ```
 - Main transformation (Hierarchicial)
 - Header Trans. (Level 0 / Apply to Subllevels = NO / Markup = <div data-title="main-header"> )
