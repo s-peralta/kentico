@@ -69,12 +69,13 @@ Hierarchical Accordion
      |- Answer Page w/ fields <br>
 
 2.	Adding Transformations
+```
 - Main transformation (Hierarchicial)
 - Header Trans. (Level 0 / Apply to Subllevels = NO / Markup = <div data-title="main-header"> )
 - Header Trans (Level 1 / Apply to Subllevels = Yes / Markup = <div title="header" class="answer"> )
 - Separator Trans.  (Level 0 / Apply to Subllevels = No / Markup = <div data-title="seperator"> )
 - Footer Trans (Level 1 / Apply to Subllevels = Yes / Markup = “</div> </div>” )
-
+```
 
 
 Add Language Culture String
