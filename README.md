@@ -45,6 +45,11 @@ Text
 ```
 <%# Eval("Title") %>
 ```
+Format Date
+```
+<%# FormatDateTime(Eval("Date"), " MMMM dd yyyy ") %> //February 11 2015 
+```
+
 Localizatioh within a tranformation
 ```
  <%# ResHelper.GetString("CWP.AgeGroup") %>
