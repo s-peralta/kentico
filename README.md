@@ -49,6 +49,16 @@ Format Date
 ```
 <%# FormatDateTime(Eval("Date"), " MMMM dd yyyy ") %> //February 11 2015 
 ```
+Conditional Logic
+```
+<asp:Placeholder runat="server" Visible='<%# !String.IsNullOrEmpty(ValidationHelper.GetString(Eval("Thumbnail"),"")) %>'>  
+   If Thumbnail field is empty do this
+ </asp:Placeholder>
+ <asp:Placeholder runat="server" Visible='<%# String.IsNullOrEmpty(ValidationHelper.GetString(Eval("Thumbnail"),"")) %>'>  
+   If Thumbnail field is NOT empty do this
+ </asp:Placeholder>
+```
+
 
 Localizatioh within a tranformation
 ```
