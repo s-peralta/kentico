@@ -59,6 +59,10 @@ Conditional Logic
  </asp:Placeholder>
 ```
 
+ASP Form Control - Hide Error Message
+```
+<cms:CMSRequiredFieldValidator ID="rfvUserNameRequired" runat="server" ControlToValidate="UserName" Display="Dynamic" EnableViewState="false">
+```
 
 Localizatioh within a tranformation
 ```
