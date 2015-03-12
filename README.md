@@ -41,7 +41,7 @@ Link from list to Detail
 ```
 <a href="<%# GetDocumentUrl() %>">Listing Anchor</a>
 ```
-Text
+Display DocType / PageType Field Value
 ```
 <%# Eval("Title") %>
 ```
