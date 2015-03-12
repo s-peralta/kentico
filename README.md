@@ -18,12 +18,17 @@ Common Webparts
 
 
 
-Create a zone
+Create a WebPart zone
 --------
 
 ```
 <cms:CMSWebPartZone ZoneID="zoneTitle" runat="server" />
 ```
+Create a Widget zone
+--------
+
+
+
 Conditional Statment
 --------
 If culture aka lang = English do this : do this
