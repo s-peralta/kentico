@@ -54,6 +54,10 @@ Format Date
 ```
 <%# FormatDateTime(Eval("Date"), " MMMM dd yyyy ") %> //February 11 2015 
 ```
+Within this Doctype / Page type - Get text field 
+```
+{% CurrentDocument.GetValue("Text") #%}
+```
 Conditional Logic
 ```
 <asp:Placeholder runat="server" Visible='<%# !String.IsNullOrEmpty(ValidationHelper.GetString(Eval("Thumbnail"),"")) %>'>  
