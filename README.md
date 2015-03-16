@@ -68,6 +68,11 @@ Conditional Logic
  </asp:Placeholder>
 ```
 
+Path Logic - https://docs.kentico.com/display/K82/Writing+page+path+expressions
+```
+/{0}/% (Place in Path Field)
+```
+
 ASP Form Control - Hide Error Message
 ```
 <cms:CMSRequiredFieldValidator ID="rfvUserNameRequired" runat="server" ControlToValidate="UserName" Display="Dynamic" EnableViewState="false">
