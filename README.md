@@ -54,9 +54,14 @@ Format Date
 ```
 <%# FormatDateTime(Eval("Date"), " MMMM dd yyyy ") %> //February 11 2015 
 ```
-Within this Doctype / Page type - Get text field 
+<strong>Within this Doctype / Page type </strong?
+Get text field 
 ```
 {% CurrentDocument.GetValue("Text") #%}
+```
+Get Document/Page Title
+```
+{% CurrentDocument.DocumentName #%}
 ```
 Conditional Logic
 ```
