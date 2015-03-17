@@ -54,7 +54,7 @@ Format Date
 ```
 <%# FormatDateTime(Eval("Date"), " MMMM dd yyyy ") %> //February 11 2015 
 ```
-<strong>Within this Doctype / Page type </strong?
+<strong>Within this Doctype / Page type </strong>
 Get text field 
 ```
 {% CurrentDocument.GetValue("Text") #%}
